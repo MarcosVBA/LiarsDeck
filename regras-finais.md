@@ -1,4 +1,4 @@
-# Aumenta ou Paga pra Ver
+# Baralho do Mentiroso
 
 ## Objetivo
 
@@ -88,4 +88,3 @@ Os pontos a seguir completam o funcionamento do simulador e podem ser revistos d
 - **Troca com o Rei:** informações já reveladas continuam conhecidas. Depois da troca, as cartas abertas por derrota continuam sem efeito. Se a mão recebida tiver menos cartas de penalidade do que as derrotas do novo dono, cartas adicionais são separadas aleatoriamente para completar a penalidade.
 - **Quantidade de jogadores e cartas:** o simulador também permite configurações de dois a seis jogadores e de quatro a seis cartas por pessoa. A configuração discutida como referência é de quatro jogadores com quatro cartas cada.
 
-O arquivo de protótipo anterior menciona 56 cartas, mas a composição corrigida nesta definição é de **54 cartas**.

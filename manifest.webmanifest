@@ -1,6 +1,6 @@
 {
-  "name": "Aumenta ou Paga pra Ver",
-  "short_name": "Paga pra Ver",
+  "name": "Baralho do Mentiroso",
+  "short_name": "Mentiroso",
   "description": "Um jogo de cartas e blefe para testar suas apostas.",
   "start_url": "./simulador.html",
   "scope": "./",
