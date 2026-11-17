@@ -1,4 +1,4 @@
-const CACHE = 'paga-pra-ver-v4';
+const CACHE = 'paga-pra-ver-v5';
 const ASSETS = ['./simulador.html', './manifest.webmanifest', './icons/icon-192.png', './icons/icon-512.png', './icons/icon-maskable-512.png'];
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(ASSETS)));

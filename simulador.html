@@ -7,7 +7,7 @@
 <link rel="apple-touch-icon" href="icons/icon-192.png">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="theme-color" content="#101612">
+<meta name="theme-color" content="#171124">
 <title>Baralho do Mentiroso · Simulador</title>
 <style>
 :root{--paper:#f4f1e9;--ink:#202c28;--muted:#68736d;--green:#153c34;--green2:#205345;--gold:#e0b66e;--red:#a53245;--purple:#67518a;--line:#dbddd3;--white:#fffdf7;--radius:18px;font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--ink);background:var(--paper);font-synthesis:none}
@@ -77,6 +77,26 @@ dialog{background:#19231c;color:#e8eee7;border:1px solid #526657;box-shadow:0 20
   .table-toolbar{order:6;margin:4px 0 0;padding:12px;border:1px solid var(--line);border-radius:12px;background:#19231c}.view-options{gap:0 14px}.round-label{font-size:12px}.table-bottom{order:7;margin:0;padding:0 4px;line-height:1.5}.below{order:8}.footnote{order:9}.log-panel{order:10}.table-top{display:none}
   .side>section:first-child{padding:16px}.action-buttons{display:grid;grid-template-columns:1fr 1fr}.action-buttons .btn{padding-inline:8px}.bid-fields{grid-template-columns:minmax(0,1fr) 100px}
 }
+
+/* Paleta roxa com amarelo para ações e destaques */
+:root{--paper:#171124;--ink:#f6f1fc;--muted:#c1b5ce;--green:#523777;--green2:#67468c;--gold:#f2ce60;--line:#554565}
+body{background:radial-gradient(ellipse at 18% 0%,#35244a 0%,#171124 55%)}
+.brand-mark{background:#493063;color:#f2ce60;box-shadow:0 0 0 1px #8a70a4 inset}
+.btn{background:#3d304d;color:#f9f4ff}.btn.primary{background:#f2ce60;color:#281d15}.btn.primary:hover:not(:disabled){background:#ffdf7c}.btn.outline{color:#f1e8f9;border-color:#766489}.btn.danger{background:#643b56;color:#fff0f5}.btn.gold{background:#f2ce60;color:#281d15}
+.check input{accent-color:#f2ce60}.view-select select,.field input,.field select{background:#21172f;color:#faf6ff;border-color:#7a6889}
+.panel,dialog{background:#292036;border-color:#584969}.panel-heading h2{color:#faf6ff}.step-marker{background:#504064;color:#f6df94}
+.felt{background:radial-gradient(ellipse at 50% 30%,#5a3d78,#30203f 72%);box-shadow:inset 0 0 70px #140b2088,0 15px 35px #0003}
+.seat{background:#21162e99;border-color:#ccb7dd38}.seat.current{background:#533b6b;border-color:#f2ce60}.seat.current .turn-tag:before,.turn-tag,.seat-footer strong,.excluded{color:#f7dc87}
+.player-sub,.seat-footer,.table-top,.table-bottom,.bid-owner,.bid-name{color:#d4c8e0}.loss-dot{border-color:#d1c2df}.loss-dot.filled{background:#f2ce60;border-color:#f2ce60}
+.playing-card.back{background-color:#4d3567;border-color:#f2ce60;color:#f2ce60;background-image:repeating-linear-gradient(45deg,transparent,transparent 7px,#f2ce6025 7px,#f2ce6025 8px),repeating-linear-gradient(-45deg,transparent,transparent 7px,#f2ce6025 7px,#f2ce6025 8px)}
+.bid-zone{background:#21172f;border-color:#74618a}.bid-caption{color:#c6b6d4}.bid-suit{color:#f2ce60}
+.turn-indicator{background:#443257;color:#fff2bd}.turn-indicator.waiting{background:#33283f;color:#e8dbf0}.turn-indicator.result-state{background:#514323;color:#fff0bc}.turn-dot{background:#f2ce60}.waiting .turn-dot{background:#c2afd2}.result-state .turn-dot{background:#f2ce60}
+.power-button{background:#49375d;color:#f6e8ff}.power-button:not(:disabled):hover{background:#604878}.legend i{color:#f2ce60}.divider{border-color:#584969}
+.log li{border-color:#51425f;color:#e1d5e9}.log li:first-child{color:#faf6ff}.log .log-round,.log .log-round:first-child{background:#473653;color:#f5e2a0}
+.result{background:#4a3b25;color:#fff1c7}.result-chip{background:#322839;color:#fff1d0}.notice{background:#49375d;color:#f4e7ff}.error{color:#ffc0d2}
+dialog::backdrop{background:#100918df}.dialog-close{color:#dfd1e8}.toast{background:#f5e5ab;color:#2b2133}
+@media(max-width:540px){.header-actions,.table-toolbar{background:#292036;border-color:#584969}.seat{background:#281b37;border-color:#584469}.seat.observer-seat{background:#4c3662;border-color:#ad91c3}.seat.current{border-color:#f2ce60}}
+
 </style>
 </head>
 <body>
